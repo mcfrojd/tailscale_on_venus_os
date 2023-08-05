@@ -131,6 +131,7 @@ clear
 
 #
 # connect to your tailscale account
+# Theese settings are custom for my setup, change the ip address to match your system!
 #
 echo "connect to your tailscale account"
 echo ""
