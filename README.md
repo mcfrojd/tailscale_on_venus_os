@@ -6,9 +6,8 @@ unzip master.zip "tailscale_on_venus_os-master/*" -d /home/root/
 rm master.zip
 cd tailscale_on_venus_os-master
 clear
-echo "Remember to check latest version "arm" at https://pkgs.tailscale.com/stable/#static before running the script."
 ls -al
-
+./setup_victron.sh
 ```
 
 
