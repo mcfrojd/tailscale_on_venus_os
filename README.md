@@ -1,3 +1,11 @@
+### Download and unpack this repo on your device.
+
+```
+wget https://github.com/mcfrojd/tailscale_on_venus_os/archive/refs/heads/master.zip
+unzip master.zip "tailscale_on_venus_os-master/*" -d /home/root
+```
+
+
 ### Before running the "setup_venus.sh" script
 
 ### Check latest version "arm" at https://pkgs.tailscale.com/stable/#static
