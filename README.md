@@ -18,7 +18,7 @@ ls -al
 
 ### ( arm: tailscale_x.xx.x_arm.tgz )
 
-### And change the version number in the script.
+### And change the version number in the script ( `nano setup_victron.sh` ).
 
 ### Then run the script with:
 
