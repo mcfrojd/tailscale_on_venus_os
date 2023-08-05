@@ -5,7 +5,7 @@ wget https://github.com/mcfrojd/tailscale_on_venus_os/archive/refs/heads/master.
 unzip master.zip "tailscale_on_venus_os-master/*" -d /home/root/
 rm master.zip
 cd tailscale_on_venus_os-master
-cls
+clear
 echo "Remember to check latest version "arm" at https://pkgs.tailscale.com/stable/#static before running the script."
 ls -al
 
