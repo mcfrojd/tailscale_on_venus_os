@@ -1,0 +1,32 @@
+#!/bin/sh
+### BEGIN INIT INFO          
+# Provides:          tailscaled
+# Required-Start:    $local_fs $network $syslog
+# Required-Stop:     $local_fs $network $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: tailscaled daemon
+# Description:       tailscaled daemon
+### END INIT INFO
+
+DAEMON=/usr/bin/tailscaled
+PIDFILE=/var/run/tailscaled.pid
+
+USER=root
+GROUP=root
+test -x $DAEMON || exit 0
+case "$1" in
+  start)
+    echo "Starting Tailscaled"
+    start-stop-daemon --start --background --pidfile $PIDFILE --make-pidfile --chuid $USER:$GROUP --startas $DAEMON
+    ;;
+  stop)
+    echo "Stopping Tailscaled"
+    start-stop-daemon --stop --pidfile $PIDFILE --retry 10
+    ;;
+  *)
+    echo "Usage: /etc/init.d/tailscaled {start|stop}"
+    exit 1
+    ;;
+esac
+exit 0
