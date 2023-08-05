@@ -2,9 +2,9 @@
 
 ```
 wget https://github.com/mcfrojd/tailscale_on_venus_os/archive/refs/heads/master.zip
-unzip master.zip "tailscale_on_venus_os-master/*" -d /home/root/tailscale_on_venus_os
+unzip master.zip "tailscale_on_venus_os-master/*" -d /home/root/
 rm master.zip
-cd tailscale_on_venus_os
+cd tailscale_on_venus_os-master
 ls -al
 
 ```
