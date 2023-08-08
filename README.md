@@ -1,3 +1,9 @@
+### This script has NOT been tested fully on my Venus OS 3.01 device yet!
+It's still a work in progress and i need to test theese to scenariosfirst:
+* install on a fresh install of Venus OS
+* run script after an update of Venus OS
+___
+
 ### Download and unpack this repo on your device.
 
 ```
