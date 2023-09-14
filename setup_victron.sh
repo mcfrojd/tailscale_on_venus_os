@@ -141,7 +141,7 @@ clear
 #
 echo "connect to your tailscale account"
 echo ""
-echo "tailscale up -ssh --advertise-routes=192.168.77.0/24"
+echo 'run "tailscale up -ssh --advertise-routes=192.168.77.0/24"'
 
 #
 # if there was no errors, tailscale should be installed and ready!
