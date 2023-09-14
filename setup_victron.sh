@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# change this variable to match the tailescale latest version
+TAILSCALE_VERSION=1.48.2
+
 clear
 
 #
@@ -21,7 +24,7 @@ clear
 #
 echo "download the latest tailscale package."
 echo ""
-curl -o tailscale_loc.tgz https://pkgs.tailscale.com/stable/tailscale_1.46.1_arm.tgz
+curl -o tailscale_loc.tgz https://pkgs.tailscale.com/stable/tailscale_$TAILSCALE_VERSION_arm.tgz
 echo "done."
 echo ""
 sleep 1
@@ -49,7 +52,7 @@ clear
 #
 echo "copy the nessesary files to /usr/bin."
 echo ""
-cp tailscale tailscaled /usr/bin/
+cp /home/root/tailscale_$TAILSCALE_VERSION_arm/tailscale tailscaled /usr/bin/
 echo "done."
 echo ""
 sleep 1
