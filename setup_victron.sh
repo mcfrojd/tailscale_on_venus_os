@@ -54,7 +54,7 @@ clear
 #
 echo "copy the nessesary files to /usr/bin."
 echo ""
-cp /home/root/tailscale_"$TAILSCALE_VERSION"_arm/tailscale tailscaled /usr/bin/
+cp /home/root/tailscale_"$TAILSCALE_VERSION"_arm/tailscale /home/root/tailscale_"$TAILSCALE_VERSION"_arm/tailscaled /usr/bin/
 echo "done."
 echo ""
 sleep 1
@@ -140,7 +140,7 @@ clear
 #
 echo "connect to your tailscale account"
 echo ""
-tailscale up --advertise-routes=192.168.77.0/24
+echo "tailscale up -ssh --advertise-routes=192.168.77.0/24"
 
 #
 # if there was no errors, tailscale should be installed and ready!
