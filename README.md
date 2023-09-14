@@ -1,7 +1,4 @@
-### This script has NOT been tested fully on my Venus OS 3.01 device yet!
-It's still a work in progress and i need to test theese to scenariosfirst:
-* install on a fresh install of Venus OS
-* run script after an update of Venus OS
+### This script has been tested fully on my Venus OS 3.10 device!
 ___
 
 ### Download and unpack this repo on your device.
@@ -15,6 +12,7 @@ chmod a+x setup_victron.sh
 clear
 ls -al
 ./setup_victron.sh
+
 ```
 
 
