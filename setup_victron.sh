@@ -29,6 +29,7 @@ curl -o tailscale_loc.tgz https://pkgs.tailscale.com/stable/$TAILSCALE_TGZ
 echo "done."
 echo ""
 sleep 1
+echo $TAILSCALE_TGZ
 echo "press any key to continue"
 echo ""
 read -s -n 1
