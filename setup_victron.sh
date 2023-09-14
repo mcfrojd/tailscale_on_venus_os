@@ -68,7 +68,7 @@ clear
 #
 echo "copy the nessesary file to /etc/init.d."
 echo ""
-cp /home/root/tailscale_on_venus_os/etc/init.d/tailscaled /etc/init.d/
+cp /home/root/tailscale_on_venus_os-master/etc/init.d/tailscaled /etc/init.d/
 echo "done."
 echo ""
 sleep 1
