@@ -54,7 +54,7 @@ clear
 #
 echo "copy the nessesary files to /usr/bin."
 echo ""
-cp /home/root/tailscale_$TAILSCALE_VERSION_arm/tailscale tailscaled /usr/bin/
+cp /home/root/tailscale_"$TAILSCALE_VERSION"_arm/tailscale tailscaled /usr/bin/
 echo "done."
 echo ""
 sleep 1
