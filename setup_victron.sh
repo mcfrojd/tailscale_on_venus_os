@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # change this variable to match the tailescale latest version
-TAILSCALE_VERSION="1.48.2"
+TAILSCALE_VERSION="1.56.1"
 TAILSCALE_TGZ="tailscale_""$TAILSCALE_VERSION""_arm.tgz"
 
 clear
